@@ -1,0 +1,4 @@
+transitsite,PEAK_downlinkbitbuffer(%),PEAK_downlinkbytebuffer(%),PEAK_downlinkflowbuffer(%),downlinkcostbuffer(%),PEAK_downlinkbitbuffer,PEAK_downlinkbytebuffer,PEAK_downlinkflowbuffer,downlinkcostbuffer
+NORCROSSGASATSITE;2,99.6796012816,99.6796012816,68.0,99.5997565339,2986666.66667,112000000.0,8.5,0.0108
+NORCROSSGASATSITE;2,0.320398718405,0.320398718405,32.0,0.400243466072,9600.0,360000.0,4.0,4.34e-05
+Total,100,100,100,100,2996266.66667,112360000.0,12.5,0.0108434

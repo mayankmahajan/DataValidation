@@ -1,0 +1,44 @@
+SORT FIELD : 	PEAK_upLinkBiteBuffer
+
+ ----- 
+
+sourcesitetypeid : WDC,
+ PEAK_upLinkBiteBuffer : 44533333866.7,
+ nfnameid : S1-U,
+ AGGR_uplinkflowbuffer : 846600000.0,
+ downlinkcostbuffer : [35.799999999999997],
+ isipv6 : 0,
+ PEAK_downlinkflowbuffer : 63200000.0,
+ PEAK_downLinkByteBuffer : 477000008000.0,
+ sourcesiteelementid : -1,
+ AGGR_downLinkByteBuffer : 3.771999978e+12,
+ AGGR_upLinkBiteBuffer : 35688889400.0,
+ timestamp : 1451001600,
+ PEAK_uplinkflowbuffer : 121000000.0,
+ AGGR_upLinkByteBuffer : 1.606000023e+13,
+ uplinkcostbuffer : [223.0],
+ AGGR_downlinkflowbuffer : 438300000.0,
+ PEAK_upLinkByteBuffer : 1.67000002e+12,
+ sourcesiteid : ATLANTAGAWDC,
+ 
+ ----- 
+
+sourcesitetypeid : WDC,
+ PEAK_upLinkBiteBuffer : 35733334400.0,
+ nfnameid : UNKNOWN,
+ AGGR_uplinkflowbuffer : 2400000000.0,
+ downlinkcostbuffer : [30.899999999999999],
+ isipv6 : 0,
+ PEAK_downlinkflowbuffer : 155000000.0,
+ PEAK_downLinkByteBuffer : 392999993000.0,
+ sourcesiteelementid : -1,
+ AGGR_downLinkByteBuffer : 3.002999995e+12,
+ AGGR_upLinkBiteBuffer : 22904444577.8,
+ timestamp : 1451001600,
+ PEAK_uplinkflowbuffer : 356000000.0,
+ AGGR_upLinkByteBuffer : 1.030700006e+13,
+ uplinkcostbuffer : [103.0],
+ AGGR_downlinkflowbuffer : 1029700000.0,
+ PEAK_upLinkByteBuffer : 1.34000004e+12,
+ sourcesiteid : ATLANTAGAWDC,
+ 

@@ -1,0 +1,16 @@
+SET spark.sql.hive.version=0.13.1
+SET spark.sql.parquet.filterPushdown=true
+SET spark.sql.hive.convertMetastoreParquet=true
+SET spark.sql.parquet.cacheMetadata=true
+spark-sql> CREATE TEMPORARY FUNCTION DenseVectorUDF as 'com.guavus.densevectorudf.DenseVectorUDF'; CREATE TEMPORARY FUNCTION peakUDF as 'com.guavus.densevectorudf.PeakDenseVectorUDF'; CREATE TEMPORARY FUNCTION genericUDAF as 'com.guavus.densevectorudf.GenericDenseVectorUDAFResolver'; CREATE TEMPORARY FUNCTION averageUDF as 'com.guavus.densevectorudf.AverageDenseVectorUDF';use rc2p61db_temp; select timestamp, nfnameid, isipv6, DenseVectorUDF(T.ByteBuffer), DenseVectorUDF(T.FlowBuffer), DenseVectorUDF(T.CostBuffer) from (select nfnameid, isipv6 , timestamp, genericUDAF(bytebuffer) as ByteBuffer, genericUDAF(flowbuffer) as FlowBuffer, genericUDAF(CostBuffer) as  CostBuffer from  f_nrmca_60min_3600_nfcube where timestamp=1450915200 and nfnameid in (1,4)   group by nfnameid, isipv6, timestamp) T;
+
+1450915200	4	0	[6.1699999E9,6.1100001E9,6.0E9,6.0099999E9,6.0700001E9,5.9399997E9,5.96E9,5.9000003E9,5.9100001E9,5.8200003E9,5.8E9,5.6999997E9]	[3.34E7,3.3E7,3.23E7,3.28E7,3.31E7,3.24E7,3.19E7,3.22E7,3.27E7,3.19E7,3.18E7,3.12E7]	[1.28]
+1450915200	1	0	[1.05E9,1.08E9,1.05E9,1.07E9,1.012E9,1.04E9,1.06E9,1.018E9,1.021E9,1.05E9,1.009E9,9.84E8]	[260000.0,258000.0,263000.0,238000.0,249000.0,247000.0,248000.0,254000.0,251000.0,255000.0,249000.0,254000.0]	[0.115]
+
+
+
+spark-sql> Jan 8, 2016 9:35:14 AM INFO: parquet.hadoop.ParquetInputFormat: Total input paths to process : 11
+Jan 8, 2016 9:35:14 AM INFO: parquet.hadoop.ParquetInputFormat: Total input paths to process : 11
+Jan 8, 2016 9:35:14 AM INFO: parquet.hadoop.ParquetFileReader: Initiating action with parallelism: 5
+Jan 8, 2016 9:35:14 AM INFO: parquet.hadoop.ParquetFileReader: reading another 11 footers
+Jan 8, 2016 9:35:14 AM INFO: parquet.hadoop.ParquetFileReader: Initiating action with parallelism: 5
