@@ -4,6 +4,7 @@ from copy import deepcopy
 
 # from numpy import sum
 
+
 def getArrays(hexValue):
     tempArr = []
     for i in range(12):
