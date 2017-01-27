@@ -1,0 +1,4 @@
+nfnameid,PEAK_downlinkbitbuffer(%),PEAK_downlinkbytebuffer(%),PEAK_downlinkflowbuffer(%),AGGR_downlinkcostbuffer(%),PEAK_downlinkbitbuffer,PEAK_downlinkbytebuffer,PEAK_downlinkflowbuffer,AGGR_downlinkcostbuffer
+UNKNOWN,67.4910998688,67.4910998688,68.1818181818,56.2297637606,96053.3333333,3602000.0,67.5,9.378e-05
+SGi,32.5089001312,32.5089001312,31.8181818182,43.7702362394,46266.6666667,1735000.0,31.5,7.3e-05
+Total,100,100,100,100,142320.0,5337000.0,99.0,0.00016678

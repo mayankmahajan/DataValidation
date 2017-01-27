@@ -1,0 +1,3 @@
+destsiteid,PEAK_totalByteBuffer(%),PEAK_totalflowbuffer(%),PEAK_uplinkbytebuffer(%),PEAK_downlinkbytebuffer(%),PEAK_totalByteBuffer,PEAK_totalflowbuffer,PEAK_uplinkbytebuffer,PEAK_downlinkbytebuffer
+10.185.51.130,100.0,100.0,100.0,100.0,2.492e+14,5025000000.0,76800000.0,2.492e+14
+Total,100,100,100,100,2.492e+14,5025000000.0,76800000.0,2.492e+14

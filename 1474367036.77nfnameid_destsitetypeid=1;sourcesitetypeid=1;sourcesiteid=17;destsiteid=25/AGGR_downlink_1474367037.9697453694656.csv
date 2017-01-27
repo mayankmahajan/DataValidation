@@ -1,0 +1,4 @@
+nfnameid,AGGR_downlinkbitbuffer(%),AGGR_downlinkbytebuffer(%),AGGR_downlinkflowbuffer(%),AGGR_downlinkcostbuffer(%),AGGR_downlinkbitbuffer,AGGR_downlinkbytebuffer,AGGR_downlinkflowbuffer,AGGR_downlinkcostbuffer
+UNKNOWN,56.2885224055,56.2885224055,56.7901234568,56.2297637606,22526.6666667,10137000.0,207.0,9.378e-05
+SGi,43.7114775945,43.7114775945,43.2098765432,43.7702362394,17493.3333333,7872000.0,157.5,7.3e-05
+Total,100,100,100,100,40020.0,18009000.0,364.5,0.00016678

@@ -1,0 +1,3 @@
+interface,AGGR_downlinkbitbuffer(%),AGGR_downlinkbytebuffer(%),AGGR_downlinkflowbuffer(%),AGGR_downlinkbitbuffer,AGGR_downlinkbytebuffer,AGGR_downlinkflowbuffer
+554,100.0,100.0,100.0,4.06133330444e+12,1.827599987e+15,912700000.0
+Total,100,100,100,4.06133330444e+12,1.827599987e+15,912700000.0

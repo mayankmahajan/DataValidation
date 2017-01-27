@@ -1,0 +1,4 @@
+vrfid,AGGR_uplinkbytebuffer(%),AGGR_uplinkflowbuffer(%),uplinkcostbuffer(%),AGGR_uplinkbytebuffer,AGGR_uplinkflowbuffer,uplinkcostbuffer
+34,83.0839599275,83.8417143537,0,2135792.0,2057640.0,910104
+47,16.9160400725,16.1582856463,0,434851.0,396556.0,113763
+Total,100,100,100,2570643.0,2454196.0,1023867

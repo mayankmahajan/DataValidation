@@ -1,0 +1,4 @@
+vrfid,PEAK_totalByteBuffer(%),PEAK_totalflowbuffer(%),PEAK_uplinkbytebuffer(%),PEAK_downlinkbytebuffer(%),PEAK_totalByteBuffer,PEAK_totalflowbuffer,PEAK_uplinkbytebuffer,PEAK_downlinkbytebuffer
+34,88.4102367732,89.2104931265,70.9208400646,91.6925642386,6.9265e+14,14147000000.0,8.78e+13,6.0485e+14
+47,11.5897632268,10.7895068735,29.0791599354,8.30743576139,9.08e+13,1711000000.0,3.6e+13,5.48e+13
+Total,100,100,100,100,7.8345e+14,15858000000.0,1.238e+14,6.5965e+14

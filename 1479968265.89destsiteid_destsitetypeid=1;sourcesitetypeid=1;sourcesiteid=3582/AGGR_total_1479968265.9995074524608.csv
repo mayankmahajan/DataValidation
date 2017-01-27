@@ -1,0 +1,3 @@
+destsiteid,AGGR_totalbitbuffer(%),AGGR_totalByteBuffer(%),AGGR_totalflowbuffer(%),totalcostbuffer(%),AGGR_uplinkbytebuffer(%),AGGR_downlinkbytebuffer(%),AGGR_totalbitbuffer,AGGR_totalByteBuffer,AGGR_totalflowbuffer,totalcostbuffer,AGGR_uplinkbytebuffer,AGGR_downlinkbytebuffer
+10.185.51.130,100.0,100.0,100.0,100.0,100.0,100.0,4.33802256356e+12,1.9521101536e+15,40231600000.0,153690240.0,76800000.0,1.9521100768e+15
+Total,100,100,100,100,100,100,4.33802256356e+12,1.9521101536e+15,40231600000.0,153690240.0,76800000.0,1.9521100768e+15

@@ -1,0 +1,3 @@
+destsiteid,PEAK_uplinkbitbuffer(%),PEAK_uplinkbytebuffer(%),PEAK_uplinkflowbuffer(%),AGGR_uplinkcostbuffer(%),PEAK_uplinkbitbuffer,PEAK_uplinkbytebuffer,PEAK_uplinkflowbuffer,AGGR_uplinkcostbuffer
+10.185.51.130,100.0,100.0,100.0,100.0,2048000.0,76800000.0,76800000.0,76800000.0
+Total,100,100,100,100,2048000.0,76800000.0,76800000.0,76800000.0

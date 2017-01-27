@@ -1,0 +1,4 @@
+vrfid,AGGR_downlinkbitbuffer(%),AGGR_downlinkbytebuffer(%),AGGR_downlinkflowbuffer(%),downlinkcostbuffer(%),AGGR_downlinkbitbuffer,AGGR_downlinkbytebuffer,AGGR_downlinkflowbuffer,downlinkcostbuffer
+34,90.9358653855,90.9358653855,90.8426919676,0,14659.2555556,6596665.0,5747658.0,910104
+47,9.06413461452,9.06413461452,9.15730803242,0,1461.17777778,657530.0,579387.0,113763
+Total,100,100,100,100,16120.4333333,7254195.0,6327045.0,1023867
